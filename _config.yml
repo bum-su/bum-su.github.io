@@ -29,9 +29,4 @@ exclude:
 # Jekyll SEO Tag (Optional)
 # =========================
 logo: logo.png
-social:
-  name: Jo bumsu
-  links:
-    - https://github.com/bum-su/bum-su.github.io
-google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en

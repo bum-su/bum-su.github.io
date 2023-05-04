@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Main
-permalink: /about/
+permalink: /main/
 ---
 
-^^ 환영
+^^ 어쨋든 환영
