@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
+title: Main
 permalink: /about/
 ---
 
-Another minimal style of Jekyll theme for writers.
+^^ 환영
