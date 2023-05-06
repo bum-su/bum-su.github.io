@@ -7,7 +7,7 @@ tags: Callby_value_address_reference Pointer
 ---
 
 # 서론
-Call by value, call by address, 그리고 call by reference는 함수 호출 시 매개변수에 인자를 전달하는 방식에 대한 개념이다. <br/>
+Call by value, call by address, 그리고 call by reference는 함수 호출 시 매개변수에 인자를 전달하는 방식에 대한 개념이다. <br/><br/>
 그럼 **araboza**
 
 ## call by value
@@ -35,7 +35,7 @@ int main() {
     return 0;
 }
 ```
-**output:** <br/>
+**output:** <br/><br/>
 Before: 10 <br/>
 After: 10 <br/><br/>
 함수 changeValue에서 num의 값을 변경하더라도 main 함수의 num1 값은 변하지 않는다. 이는 call by value 방식으로 값이 복사되어 전달되기 때문
@@ -65,7 +65,7 @@ int main() {
     return 0;
 }
 ```
-**output:** <br/>
+**output:** <br/><br/>
 Before: 10<br/>
 After: 20<br/><br/>
 함수 changeValue에서 포인터를 통해 변수 num1의 주소를 전달하고, 원본 값을 변경된 결과값이 나왔다.
@@ -93,12 +93,13 @@ int main() {
     return 0;
 }
 ```
-**output:** <br/>
+**output:** <br/><br/>
 Before: 10<br/>
 After: 20<br/><br/>
 함수 changeValue에서 참조자를 사용하여 원본 변수 num1을 전달하고 수정된 결과가 나왔다.
 
 # 정리
+----------------
 1. **call by value**
     - 함수에 인자로 전달되는 변수의 값을 **복사하여 전달하는 방식**. 원본 변수에 영향을 주지 않는다.
 
