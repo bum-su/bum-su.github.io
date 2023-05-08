@@ -3,7 +3,7 @@ layout: post
 title: c++ Callby_value_address_reference
 date: 2023-05-06 14:00:00 +0900
 categories: C++ Variable
-tags: [Callby_value_address_reference Pointer]
+tags: [Callby_value_address_reference, Pointer]
 ---
 
 # 서론
