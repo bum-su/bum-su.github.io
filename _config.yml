@@ -5,7 +5,6 @@ email: josy1002@naver.com
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -29,4 +28,5 @@ exclude:
 # Jekyll SEO Tag (Optional)
 # =========================
 logo: logo.png
+
 lang: en
